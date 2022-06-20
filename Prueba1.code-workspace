@@ -1,0 +1,10 @@
+{
+	"folders": [
+		{
+			"path": "..\\G1generation"
+		}
+	],
+	"settings": {
+		"java.configuration.updateBuildConfiguration": "interactive"
+	}
+}
