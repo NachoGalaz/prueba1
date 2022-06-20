@@ -2,6 +2,9 @@
 	"folders": [
 		{
 			"path": "..\\G1generation"
+		},
+		{
+			"path": "."
 		}
 	],
 	"settings": {
