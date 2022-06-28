@@ -22,7 +22,17 @@ public class CasaService {
     //lista casas
     public List<Casa> findAll() {
         return casaRepository.findAll();
+        
     }
+
+    public Casa buscarId(Long id) {
+		return casaRepository.findById(id).get();//.get() especifica el tipo de datos que necesitamos
+	}
+	
+	public void eliminarPorId(Long id) {
+		
+		casaRepository.deleteById(id);
+	}
 
     
 }
